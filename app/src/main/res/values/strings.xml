@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Hello World</string>
+    <string name="greeting">Hello</string>
+    <string name="password">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="username">Username</string>
+    <string name="menu_name">Navigation Drawer</string>
+
+        <!--to toggle the open close button
+            of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
 </resources>
