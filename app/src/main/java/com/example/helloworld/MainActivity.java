@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText username;
+    private EditText usn;
+    private EditText pwd;
 
 
     @Override
@@ -14,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        username = findViewById(R.id.username);
+        usn = findViewById(R.id.username);
+        pwd = findViewById(R.id.password);
     }
 
 
